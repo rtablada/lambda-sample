@@ -2,7 +2,7 @@
 
 ### Creating Functions
 
-1. Define the primary service (see `FooService`) that implements `IExecutable<out TOut, in TIn>`
+1. Define the primary service (see `FooService`) that implements `IExecutable<in TIn, out TOut>`
 2. Define a class (see `FooServiceEntry`) that inherits `EntryPoint<TService, TIn, TOut>`
 
 ### Additional Dependencies
