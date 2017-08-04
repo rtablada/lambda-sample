@@ -1,4 +1,4 @@
-# Possible Issues
+### Possible Issues
 
 #### Running ./build.sh Fails On Restore
 
@@ -14,6 +14,8 @@ The [current workaround](https://github.com/dotnet/cli/issues/6550#issuecomment-
 ```
 export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1
 ```
+
+## Development
 
 ### Creating Functions
 
