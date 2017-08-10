@@ -9,7 +9,7 @@ public class FooService : IFooService
     {
         _writer = writer;
     }
-    
+
     public Response Execute(Request request)
     {
         _writer.Write(request);
